@@ -23,7 +23,9 @@ The framework therefore separates three layers:
   **3. Execution engine** — compares current exposure with active target exposure and generates either monthly sell-only rebalancing instructions or intra-month buy-only DCA (Dollar-Cost     Averaging) instructions.
 
 Settings:
+
   **a) Monthly rebalance** — sell-only. Exit positions and automatically trim overweighted exposures.
+  
   **b) Intra-month accumulation** — buy-only. Controlled entry or further accumulation of postions using the DCA approach spread over the month.
 
 ## Notes
